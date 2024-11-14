@@ -23,7 +23,6 @@ VACANCY_TITLE = "h1.g-h2::text"
 VACANCY_DESCRIPTION = "div.b-typo.vacancy-section"
 
 
-
 class VacanciesSpider(scrapy.Spider):
     name = "vacancies"
     allowed_domains = ["jobs.dou.ua"]
